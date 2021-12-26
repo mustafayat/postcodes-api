@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Postcodes API Suite">
+    <test name="Postcodes API Test">
+        <classes>
+            <class name="io.postcodes.controller.ValidateController"></class>
+            <class name="io.postcodes.controller.PostcodeController"></class>
+            <class name="io.postcodes.controller.NearestController"></class>
+            <class name="io.postcodes.controller.RandomController"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+io/postcodes/utilities/ConfigurationReader.class
+io/postcodes/pojo/PostcodesResult.class
+io/postcodes/controller/ValidateController.class
+io/postcodes/controller/TestBase.class
+io/postcodes/common/GenericFunctions.class
+io/postcodes/pojo/NearestResult.class
+io/postcodes/controller/NearestController.class
+io/postcodes/common/EndPoints.class
+io/postcodes/controller/Postcode.class
+io/postcodes/pojo/Postcodes.class
+io/postcodes/common/Route.class
+io/postcodes/controller/PostcodeController.class
+io/postcodes/controller/RandomController.class
+io/postcodes/pojo/NearestPostcode.class

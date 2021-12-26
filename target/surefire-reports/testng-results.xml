@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-23T23:31:06 GMT" name="Postcodes API Suite" finished-at="2021-12-23T23:31:08 GMT" duration-ms="2557">
+    <groups>
+    </groups>
+    <test started-at="2021-12-23T23:31:06 GMT" name="Postcodes API Test" finished-at="2021-12-23T23:31:08 GMT" duration-ms="2557">
+      <class name="io.postcodes.controller.NearestController">
+        <test-method signature="verifyPostcode()[pri:0, instance:io.postcodes.controller.NearestController@7f9fcf7f]" started-at="2021-12-23T23:31:08 GMT" name="verifyPostcode" finished-at="2021-12-23T23:31:08 GMT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostcode -->
+      </class> <!-- io.postcodes.controller.NearestController -->
+      <class name="io.postcodes.controller.ValidateController">
+        <test-method signature="validateInvalidPostcode()[pri:0, instance:io.postcodes.controller.ValidateController@51931956]" started-at="2021-12-23T23:31:06 GMT" name="validateInvalidPostcode" finished-at="2021-12-23T23:31:07 GMT" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidPostcode -->
+        <test-method signature="validatePostcode()[pri:0, instance:io.postcodes.controller.ValidateController@51931956]" started-at="2021-12-23T23:31:07 GMT" name="validatePostcode" finished-at="2021-12-23T23:31:08 GMT" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostcode -->
+      </class> <!-- io.postcodes.controller.ValidateController -->
+      <class name="io.postcodes.controller.PostcodeController">
+        <test-method signature="verifyInvalidPostcode()[pri:0, instance:io.postcodes.controller.PostcodeController@44a664f2]" started-at="2021-12-23T23:31:08 GMT" name="verifyInvalidPostcode" finished-at="2021-12-23T23:31:08 GMT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPostcode -->
+        <test-method signature="verifyPostcode()[pri:0, instance:io.postcodes.controller.PostcodeController@44a664f2]" started-at="2021-12-23T23:31:08 GMT" name="verifyPostcode" finished-at="2021-12-23T23:31:08 GMT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostcode -->
+        <test-method signature="verifyWithoutPostcode()[pri:0, instance:io.postcodes.controller.PostcodeController@44a664f2]" started-at="2021-12-23T23:31:08 GMT" name="verifyWithoutPostcode" finished-at="2021-12-23T23:31:08 GMT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWithoutPostcode -->
+      </class> <!-- io.postcodes.controller.PostcodeController -->
+      <class name="io.postcodes.controller.RandomController">
+        <test-method signature="validateRandomPostcode()[pri:0, instance:io.postcodes.controller.RandomController@2357d90a]" started-at="2021-12-23T23:31:08 GMT" name="validateRandomPostcode" finished-at="2021-12-23T23:31:08 GMT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRandomPostcode -->
+      </class> <!-- io.postcodes.controller.RandomController -->
+    </test> <!-- Postcodes API Test -->
+  </suite> <!-- Postcodes API Suite -->
+</testng-results>
